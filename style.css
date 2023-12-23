@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -16,12 +17,9 @@ body{
 }
 .container{
     background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 700px;
     max-width: 100%;
-    min-height: 500px;
+    min-height: 450px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -29,5 +27,72 @@ body{
 }
 
 .form-container{
-
+    position: absolute;
+    height: 100%;
+    top: 0%;
+}
+.signup-container{
+    left: 0;
+    width: 50%;
+    z-index: 1;
+}
+form{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+form h1{
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 10px blue solid;
+    border-radius: 10%;
+    padding-bottom: 5px;
+}
+.social-media-icon{
+    margin: 20px;
+}
+.social-media-icon .icon{
+    color: black;
+    margin: 10px;
+}
+.social-media-icon a i{
+    font-size: 22px;
+    padding: 8px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    text-decoration: none;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input{
+    margin: 5px;
+    padding: 10px 5px;
+    width:80%;
+}
+a{
+    font-size: 15px;
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    text-transform:uppercase;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.signin-container{
+    z-index: 2;
+    left: 0;
+    width: 50%;
 }
