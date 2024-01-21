@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(Untitled\ design3.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.logo{
+    color: white;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding-left: 35px;
+    font-size: 40px;
+}
+span{
+    color: rgb(0, 217, 255);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white ;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:#00d9ff ;
+    text-decoration: underline;
+}
+.aboutme{
+    position: absolute;
+    top: 40%;
+    left:15%;
+}
+h1{
+    color: white;
+    font-size: 55px;
+    padding: 0px 0px 0px 25px;
+}
+h3, h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0px 20px 35px;
+}
+@media screen and (max-width:600px) {
+    .aboutme{
+        width: 60%;
+    }
+    nav{
+        width:90%;
+    }
+}
+.About{
+    background-color: #242020;
+    height: 100vh;
+    width: 100%;
+    padding: 25px 100px 10px; 
+}
+.About h2{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+.About p{
+    color: white;
+}
+
+
