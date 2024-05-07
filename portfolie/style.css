@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: #242020;
+}
+/*------------------------------------Header------------------------------------------------- */
 .header{
     width: 100%;
     height: 100vh;
@@ -45,6 +52,7 @@ nav ul li a:hover{
     color:#00d9ff ;
     text-decoration: underline;
 }
+/*------------------------------------About me------------------------------------------------- */
 .aboutme{
     position: absolute;
     top: 40%;
@@ -61,27 +69,130 @@ h3, h4{
     font-weight: 300;
     margin: 20px 0px 20px 35px;
 }
-@media screen and (max-width:600px) {
-    .aboutme{
-        width: 60%;
-    }
-    nav{
-        width:90%;
-    }
-}
 .About{
     background-color: #242020;
-    height: 100vh;
-    width: 100%;
-    padding: 25px 100px 10px; 
+    padding: 40px 100px 20px;
+    right:100px;
 }
+
 .About h2{
     color: white;
     font-size: 50px;
     padding: 10px;
 }
+.About h2 span{
+    color: rgb(0, 217, 255);
+}
 .About p{
     color: white;
+    width:400px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: start;
+    line-height: 2rem;  
+}
+/*------------------------------------education------------------------------------------------- */
+
+.education{
+    background-color: #242020;
+    padding: 25px 0px 20px;
+    width: 100%;
+}
+.education h2{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+.education h2 span{
+    color: rgb(0, 217, 255);
+}
+.education p{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px 0px 0px;
+}
+/*------------------------------------Skills------------------------------------------------ */
+.skills{
+    background-color: #242020;
+    width: 100%;
+    padding: 30px 0px 30px;
+}
+.skills h2{
+    color: white;
+    font-size: 50px;
+    padding: 10px;  
+}
+.skills ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.skills ul li{
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+/*-----------------------------------footer------------------------------------------------- */
+footer {
+    background-color: #242020;
+}
+.footer{
+    padding: 40px 20px 20px;
+    width: 100%;
+}
+.footericons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;  
+}
+.footericons a{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.footericons a i{
+    font-size: 35px;
+    color: #242020;
+    opacity:0.9;
+}
+.footericons a:hover{
+    transition:0.5s;
+    background-color: #242020;
+    
+}
+.footericons a:hover i{
+    transition:0.5s;
+    color: #00d9ff;
+    
+}
+.fa-brands fa-youtube{
+    color:#c4302b ;
+    transition:0.5s;
+}
+.footernav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;     
+}
+.footernav ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+.footernav ul li a{
+    color: white;
+}
+.footernav ul li a:hover{
+    color: #00d9ff;
+    opacity: 0.8;
 }
 
-
+.footerbottom p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
